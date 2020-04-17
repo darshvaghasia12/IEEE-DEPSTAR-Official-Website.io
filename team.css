@@ -1,0 +1,565 @@
+body {
+  margin:0;
+  padding:0;
+  background-image:url('20593.jpg');
+  background-attachment: fixed;
+}
+
+.firsthead {
+    height:27px;
+    width:100%;
+    background-color:#E3EAF2;
+	font-family: 'Baloo Tamma 2', cursive;
+}
+
+.defaultnav{
+    float:left;
+    display:block;
+    color:#00397B;
+    text-decoration:none;
+    text-align:center;
+    font-size:20px;
+}
+
+.nav1{
+  padding-left:290px;
+}
+
+/*
+.defaultnav:hover {
+    background-color:#F9FBFC;
+}*/
+
+.secondhead {
+    background-image: url("2798384.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width:100%;
+    height:50%;
+}
+
+.secondhead h1 {
+    color:#DDE5E9;
+	font-family: 'Roboto Slab', serif;
+    float:left;
+	padding-left:10px;
+
+}
+
+.search {
+    padding-left:20px;
+}
+
+.search:hover {
+    opacity:0.1;
+}
+
+.logo
+{
+    float:right;
+    height:30%;
+	padding-right:5px;
+	background-color:white;
+	border-radius:20px;
+}
+
+.logob{
+	opacity:0.8;
+	padding-right:10px;
+}
+
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid white;
+    border-radius: 20px;
+    font-size: 16px;
+    background-color:#DDE5E9;
+    background-image: url('searchicon.png');
+    background-size:40px;
+    opacity:0.5;
+    background-position: -1px 0px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 25%;
+}
+
+.thirdhead {
+    height:90px;
+    width:100%;
+}
+
+.navbar {
+    float:left;
+    display:block;
+    color:#E0EEF5;
+    text-decoration:none;
+    text-align:center;
+    font-size:25px;
+    padding:0px 75px;
+	padding-top:30px;
+	font-family: 'Roboto Slab', serif;
+}
+
+.navbar:hover {
+    opacity:0.5;
+}
+
+.footer {
+    background-image: url("2798384.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width:100%;
+    height:40%;
+}
+
+.footernav {
+    float:left;
+    display:block;
+    color:white;
+    text-decoration:none;
+    text-align:center;
+    font-size:17px;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+.footernav span:hover{
+	color:#02CBEF;
+}
+
+.copyright {
+    float:left;
+    color:white;
+    font-family:Gill Sans, sans-serif;
+    padding-left:40px;
+}
+
+.footlogo{
+    float:right;
+    padding-right:70px;
+}
+
+.addetails h2{
+  font-family: 'Roboto Condensed', sans-serif;
+  color:#4C4E4F;
+}
+
+.addetails p {
+  color:#747678;
+  font-weight:100;
+  font-size: 24;
+}
+
+.link {
+  color:#147FB9;
+  text-decoration: none;
+  border-radius:20px;
+  padding:15px 15px;
+}
+
+.link:hover {
+  background-color:#D8D8DD;
+}
+
+.maps{
+  float:right;
+  padding-right:30px;
+}
+.flogo {
+	border-radius:20px;
+	opacity:0.9;
+}
+
+.flogo:hover {
+  opacity:0.5;
+}
+
+.insta {
+  opacity:0.7;
+}
+
+.youtube {
+  opacity:0.7;
+}
+
+.navigation {
+  padding-left:30px;
+}
+
+span{
+  padding: 10px 10px;
+}
+
+span:hover{
+  opacity:0.5;
+}
+
+.right {
+	padding-left:45px;
+	color:#4C4E4F;
+	font-family:'Roboto Condensed', sans-serif;
+}
+
+.right p{
+	font-family:'Roboto Condensed', sans-serif;
+	font-size:20;
+}
+
+.ourmentors{
+	font-family:'Roboto Condensed', sans-serif;
+	color:#4C4E4F;
+	font-size:45;
+	height:38%;
+	padding-top:1px;
+}
+
+.men1{
+	background-image:url('2798384.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+	font-family:'Roboto Condensed', sans-serif;
+	font-size:25;
+	color:#D5D5D3;
+	height:70%;
+	padding-top:38px;
+}
+
+.men1 img {
+	border-radius:30px;
+}	
+
+.img1{
+	padding-left:30px;
+}
+
+.men1 .desp1{
+	float:right;
+	padding-right:300px;
+	padding-top:85px;
+}
+
+.men2{
+	font-family:'Roboto Condensed', sans-serif;
+	font-size:25;
+	color:#4C4E4F;
+	height:70%;
+
+}
+
+.desp2{
+	padding-left:200px;
+	padding-top:50px;
+}
+
+.img2 {
+	float:right;
+	padding-top:10px;
+}
+
+.img2 img {
+	border-radius:30px;;
+}
+
+.men3{
+	font-family:'Roboto Condensed', sans-serif;
+	font-size:25;
+	color:#4C4E4F;
+	
+}
+
+.img3{
+	padding-top:20px;
+}
+
+.img3 img{
+	float:right;
+	border-radius:30px;
+	height:60%;
+	width:30%;
+}
+
+.desp3{
+	padding-left:250px;
+	padding-top:60px;
+}
+
+.core{
+	background-image:url('2798384.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+	font-family:'Roboto Condensed', sans-serif;
+	color:#D5D5D3;
+	font-size:45;
+	padding-top:90px;
+	height:50%;
+}
+
+.com1{
+	background-image:url('2798384.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+	font-family:'Roboto Condensed', sans-serif;
+	font-size:25;
+	color:#D5D5D3;
+	height:70%;
+	padding-top:38px;
+}
+
+.imgcom1 img {
+	transform:rotate(-90deg);
+	border-radius:30px;
+	height:70%;
+	width:30%;
+}
+
+.imgcom1{
+	padding-left:30px;
+	padding-top:40px;
+}	
+
+.despcom1{
+	float:right;
+	padding-right:100px;
+	padding-top:85px;
+}
+
+.com2{
+	font-family:'Roboto Condensed', sans-serif;
+	font-size:25;
+	color:#4C4E4F;
+	height:70%;
+}
+
+.imgcom2 img{
+			transform:rotate(-90deg);
+	border-radius:30px;
+	height:70%;
+	width:30%;
+	float:right;
+}
+
+.despcom2{
+	padding-top:50px;
+	padding-left:250px;
+}
+
+.imgcom2{
+	padding-top:60px;
+	padding-left:30px;
+}
+
+.operating{
+	font-family:'Roboto Condensed', sans-serif;
+	color:#4C4E4F;
+	font-size:45;
+	padding-top:90px;
+	height:50%;
+}
+
+.op1{
+	background-image:url('2798384.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+	font-family:'Roboto Condensed', sans-serif;
+	font-size:25;
+	color:#D5D5D3;
+	height:70%;
+}
+
+.imgop1 img{
+	transform:rotate(-90deg);
+	border-radius:30px;
+	height:70%;
+	width:30%;
+	float:right;
+}
+
+.despop1{
+	padding-top:50px;
+	padding-left:250px;
+}
+
+.imgop1 {
+	padding-top:60px;
+	padding-left:30px;
+}
+
+.op2 {
+	font-family:'Roboto Condensed', sans-serif;
+	font-size:25;
+	color:#4C4E4F;
+	height:70%;
+	padding-top:38px;
+}
+
+.imgop2 img {
+	transform:rotate(-90deg);
+	border-radius:30px;
+	height:70%;
+	width:30%;
+}
+
+.imgop2{
+	padding-left:30px;
+	padding-top:40px;
+}	
+
+.despop2{
+	float:right;
+	padding-right:100px;
+	padding-top:85px;
+}
+
+.publicity{
+	font-family:'Roboto Condensed', sans-serif;
+	color:#4C4E4F;
+	font-size:45;
+	padding-top:90px;
+	height:50%;
+}
+
+.pro1{
+	background-image:url('2798384.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+	font-family:'Roboto Condensed', sans-serif;
+	font-size:25;
+	color:#D5D5D3;
+	height:70%;
+	padding-top:38px;
+}
+
+.imgpro1 img {
+	transform:rotate(-90deg);
+	border-radius:30px;
+	height:70%;
+	width:30%;
+}
+
+.imgpro1{
+	padding-left:30px;
+	padding-top:40px;
+}	
+
+.desppro1{
+	float:right;
+	padding-right:100px;
+	padding-top:85px;
+}
+
+.pro2{
+	font-family:'Roboto Condensed', sans-serif;
+	font-size:25;
+	color:#4C4E4F;
+	height:70%;
+}
+
+.imgpro2 img{
+	transform:rotate(-90deg);
+	border-radius:30px;
+	height:70%;
+	width:30%;
+	float:right;
+}
+
+.desppro2{
+	padding-top:50px;
+	padding-left:250px;
+}
+
+.imgpro2{
+	padding-top:60px;
+	padding-left:30px;
+}
+
+.finance{
+	background-image:url('2798384.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+	font-family:'Roboto Condensed', sans-serif;
+	color:#D5D5D3;
+	font-size:45;
+	padding-top:90px;
+	height:50%;
+}
+
+.fi1{
+	color:#4C4E4F;
+	font-family:'Roboto Condensed', sans-serif;
+	font-size:25;
+	height:70%;
+	padding-top:38px;
+}
+
+.imgfi1 img {
+	transform:rotate(-90deg);
+	border-radius:30px;
+	height:70%;
+	width:30%;
+}
+
+.imgfi1{
+	padding-left:30px;
+	padding-top:40px;
+}	
+
+.despfi1{
+	float:right;
+	padding-right:100px;
+	padding-top:85px;
+}
+
+.fi2{
+	background-image:url('2798384.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+	color:#D5D5D3;
+	font-family:'Roboto Condensed', sans-serif;
+	font-size:25;
+	height:70%;
+}
+
+.imgfi2 img{
+	transform:rotate(-90deg);
+	border-radius:30px;
+	height:70%;
+	width:30%;
+	float:right;
+}
+
+.despfi2{
+	padding-top:50px;
+	padding-left:250px;
+}
+
+.imgfi2{
+	padding-top:60px;
+	padding-left:30px;
+}
+
+.shubham img{
+	border-radius:30px;
+	height:90%;
+	width:40%;
+	float:right;
+}
+
+.shubham{
+	padding-top:
+	padding-right:1100px;
+	float:left;
+}

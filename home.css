@@ -1,7 +1,8 @@
 body {
   margin:0;
   padding:0;
-  background-color:#EEEED2 ;
+  background-image:url('20593.jpg');
+  background-color:#EEEED2;
   background-attachment: fixed;
 }
 
@@ -52,7 +53,7 @@ body {
 }
 
 .search:hover {
-    opacity:0.5;
+    opacity:0.1;
 }
 
 .logo
@@ -191,6 +192,9 @@ input[type=text]:focus {
 
 .intro {
     background-image:url('2798384.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     border-radius:5px;
 }
 
@@ -281,6 +285,9 @@ input[type=text]:focus {
 
 .footer {
     background-image: url("2798384.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     width:100%;
     height:40%;
 }
@@ -338,6 +345,7 @@ input[type=text]:focus {
   padding-right:30px;
 }
 .flogo {
+	border-radius:20px;
 	opacity:0.9;
 }
 
@@ -563,6 +571,9 @@ top:6px;
 
 .quote {
 	background-image:url('2798384.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 	font-family: 'Roboto Condensed', sans-serif;
 	color:#D5D5D3;
 	font-size:44;
@@ -591,6 +602,9 @@ top:6px;
 
 .charusat{
 	background-image:url('2798384.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 	height:48%;
 	border-radius:5px;
 }
@@ -600,4 +614,8 @@ top:6px;
 	color:#D5D5D3;
 	font-size:35px;
 	padding-top:70px;
+}
+
+.right p{
+	font-family:'Roboto Condensed', sans-serif;
 }
