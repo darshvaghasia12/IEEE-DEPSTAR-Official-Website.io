@@ -1,6 +1,7 @@
 body {
   margin:0;
   padding:0;
+  overflow-x:hidden;
   background-image:url('20593.jpg');
   background-attachment: fixed;
 }
@@ -549,17 +550,4 @@ span:hover{
 .imgfi2{
 	padding-top:60px;
 	padding-left:30px;
-}
-
-.shubham img{
-	border-radius:30px;
-	height:90%;
-	width:40%;
-	float:right;
-}
-
-.shubham{
-	padding-top:
-	padding-right:1100px;
-	float:left;
 }
