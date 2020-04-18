@@ -315,6 +315,9 @@ input[type=text]:focus {
     padding-left:40px;
 }
 
+.copyrightsmall{
+	display:none;
+}
 .footlogo{
     float:right;
     padding-right:70px;
@@ -867,8 +870,8 @@ input[type=text]:focus {
 }
 
 .ieeelogo img{
-	height:45%;
-	width:60%;
+	height:26%;
+	width:40%;
 }
 
 .ieeelogo{
@@ -1079,11 +1082,20 @@ top:6px;
 
 .footl{
 	display:block;
-	padding-left:100px;
+	padding-left:83px;
 	padding-top:350px;
 }
 
 .copyright{
+	display:none;
+}
+
+.copyrightsmall{
+	display:block;
+    float:left;
+    color:white;
+    font-family:Gill Sans, sans-serif;
+    padding-left:40px;
 	padding-right:20px;
 }
 	
@@ -1099,4 +1111,17 @@ top:6px;
 	height:90%;
 	}
 
+	.container .btn{
+	width:100px;
+	height:20px;
+	padding-top:5px;
+}
+
+.btn a{
+	font-size:8px;
+}
+	
+.flogo{
+	padding-right:20px;
+	}
 }
