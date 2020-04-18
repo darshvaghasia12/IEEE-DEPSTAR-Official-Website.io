@@ -1084,5 +1084,9 @@ top:6px;
 .copyright{
 	padding-right:20px;
 }
+	
+.maps{
+	float:left;	
+}
 
 }
