@@ -688,30 +688,41 @@ top:6px;
 
 
 @media only screen and (max-width:680px){
-		.body{
+		html{
 			overflow-x:hidden;
+		}
+		body{
 			width:100%;
 		}
 		.firsthead{
 			display:none;
 		}
 		.secondhead{
-			height:100%;
+			height:125%;
 		}
 		.secondhead h1{
-			font-size:20;
+			font-size:35;
 			padding:10px 20px;
 		}
 		.secondhead img{
-			height:5%;
-			width:25%;
+			height:17%;
+			width:65%;
 			border-radius:9px;
 		}
+		
+		.secondieee{
+			padding-right:70px;
+		}
+		
+		.navsmall{
+			padding-right:55px;
+		}
+		
 		.logob{
 			padding-bottom:30px;
 		}
 		.search{
-			
+			display:none;
 		}
 		
 	input[type=text] {
@@ -856,7 +867,7 @@ input[type=text]:focus {
 }
 
 .ieeelogo img{
-	height:40%;
+	height:50%;
 	width:55%;
 }
 
@@ -1053,7 +1064,7 @@ top:6px;
 	font-family:'Roboto Condensed', sans-serif;
 	color:#D5D5D3;
 	font-size:34px;
-	padding-top:70px;
+	padding-top:80px;
 }
 
 .footer{
