@@ -1025,7 +1025,7 @@ top:6px;
 	font-size:34;
 	text-align:center;
 	border-radius:5px;
-	height:200px;
+	height:250px;
 	padding-top:5px;
 	padding-bottom:35px;
 }
@@ -1088,5 +1088,9 @@ top:6px;
 .maps{
 	float:left;	
 }
+	
+.stathead h1{
+	font-size:40px;
+	}
 
 }
