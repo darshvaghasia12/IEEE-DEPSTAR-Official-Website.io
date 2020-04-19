@@ -319,8 +319,10 @@ input[type=text]:focus {
 	display:none;
 }
 .footlogo{
+    display:block;
+    padding-top:90px;
     float:right;
-    padding-right:70px;
+    padding-right:400px;
 }
 
 .footl{
@@ -355,7 +357,7 @@ input[type=text]:focus {
 }
 .flogo {
 	border-radius:20px;
-	opacity:0.9;
+	padding-right:40px;
 }
 
 .flogo:hover {
