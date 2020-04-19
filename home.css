@@ -1072,17 +1072,13 @@ top:6px;
 	padding-top:80px;
 }
 
-.footer{
-	height:60%;
-}
-
 .footlogo{
 	display:none;
 }
 
 .footl{
 	display:block;
-	padding-left:83px;
+	padding-left:25%;
 	padding-top:350px;
 }
 
@@ -1122,6 +1118,6 @@ top:6px;
 }
 	
 .flogo{
-	padding-right:20px;
+	padding-right:5%;
 	}
 }
