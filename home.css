@@ -955,9 +955,8 @@ input[type=text]:focus {
 
 .alignmem{
 	float:left;
-	padding-right:10px;
+	padding-right:13%;
 	padding-top:50px;
-	padding-left:20px;
 }
 
 .memberships{
